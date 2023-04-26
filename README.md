@@ -15,7 +15,7 @@ This implementation is meant to preserve as much of the base hardware as possibl
 Setting up FSRs for gameplay with an app to adjust the sensitivities happens in three parts.
 1. [Setup the hardware using teejusb's guide.](https://github.com/teejusb/fsr) The only difference between the Arduino implemenation for normal style DDR/ITG pads and SMX pads as far as sensors go is the ability to use the existing SMX FSRs without needing to remove them from the pads like you would traditional sensors in a normal style pad. You can see an example of how jumper cables can be wired into the existing SMX FSR molex connector below:
 <p align="center">
-    <img src="img/smx%20fsr.jpg" height="350px" />
+    <img src="img/smx%20fsr.jpg" height="350px"/>
 </p>
 
 3. 
