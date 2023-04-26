@@ -25,9 +25,10 @@ Suggestion/Recommendation: You can either solder the far end of the jumper cabel
     <img src="img/arduino%20shoebox.jpg" height="400px"/>  
 </p>
 
-2. Remove the power adapter box from the front of the pad so you can route the cables into it. To access below the SMX frame that holds the PCB that the FSRs plug into, you can find two sets of screws on the Left and Right channels that you can remove to lift the frame up and work the wires through.
+2. Remove the power adapter box from the front of the pad so you can route the cables into it. To access below the SMX frame that holds the PCB that the FSRs plug into, you can find two sets of screws on the Left and Right channels that you can remove to lift the frame up and work the wires through the open areas into the individual arrow panels.
 <p align="center">
-    <img src="img/smx%20open%20panels.jpeg " height="600px"/>
+    <img src="img/screwdriver.jpg" height="300px"/>
+    <img src="img/smx%20open%20panels.jpeg" height="600px"/>
 </p>   
 
 Those wires can be brought up from the underside into the main PCB area to connect to the SMX FSR.
