@@ -19,10 +19,11 @@ Setting up FSRs for gameplay with an app to adjust the sensitivities happens in 
     <img src="img/fsr%20jumper.jpeg" height="400px"/>
 </p>
 
-Suggestion/Recommendation: You can either solder the far end of the jumper cabels to the longer wire that will be routed throughout the pad, or do as I did and string multiple jumper cables together and tie them together with electrical tape (not ideal). See below for example images for my Arduino/BreadBoard setup:
+Suggestion/Recommendation: You can either solder the far end of the jumper cabels to the longer wire that will be routed throughout the pad, or do as I did and string multiple jumper cables together and tie them together with electrical tape (not ideal but it works). See below for example images for my Arduino/BreadBoard setup:
 
 <p align="center">
-    <img src="img/arduino%20shoebox.jpg" height="400px"/>
+    <img src="img/jumper%20cables.jpg" height="400px"/>
+    <img src="img/arduino%20shoebox.jpg" height="400px"/>  
 </p>
 
 3. 
