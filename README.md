@@ -18,7 +18,7 @@ A Force Sensitive Resistor (FSR) is a resistor that changes its resistive value 
 
 ## Preliminary Reads/Credits
 - Thank you [teejusb](https://github.com/teejusb) and [VincentITG](https://github.com/vlnguyen)! Between Vincent's easy to follow picture guide and instructions from both guides, I was able to successfully implement the Arduino FSR method with my SMX Gen 4 pad. 
-- ([teejusb/fsr](https://github.com/teejusb/fsr)  ([vlnguyen/itg-fsr](https://github.com/vlnguyen/itg-fsr)
+- [teejusb/fsr](https://github.com/teejusb/fsr)  [vlnguyen/itg-fsr](https://github.com/vlnguyen/itg-fsr)
 - Please refer to these guides for setting up Arduino/Teensy board connections for general FSR use. The concept for the SMX pad is almost exactly the same.
 
 ### SMX and Traditional Style Pad Differences?
