@@ -16,7 +16,6 @@ Setting up FSRs for gameplay with an app to adjust the sensitivities happens in 
 1. [Setup the Arduino and breadboard using teejusb's guide.](https://github.com/teejusb/fsr) The only difference between the Arduino implemenation for normal style DDR/ITG pads and SMX pads as far as sensors go is the ability to use the existing SMX FSRs without needing to remove them from the pads like you would traditional sensors in a normal style pad. You can see an example of how jumper cables can be wired into the existing SMX FSR molex connector below:
 <p align="center">
     <img src="img/smx%20fsr.jpg" height="400px"/>
-    <img src="img/fsr%20jumper.jpeg" height="400px"/>
 </p>
 
 Suggestion/Recommendation: You can either solder the far end of the jumper cabels to the longer wire that will be routed throughout the pad, or do as I did and string multiple jumper cables together and tie them together with electrical tape (not ideal but it works). See below for example images for my Arduino/BreadBoard setup:
@@ -26,9 +25,18 @@ Suggestion/Recommendation: You can either solder the far end of the jumper cabel
     <img src="img/arduino%20shoebox.jpg" height="400px"/>  
 </p>
 
-3. 
-4. [Stand up the server.](https://github.com/vlnguyen/itg-fsr/tree/master/server) Create API endpoints for interacting with the Arduino and with a local profile database.
-5. [Run the web client.](https://github.com/vlnguyen/itg-fsr/tree/master/client) Once the client is running, the web app can be accessed by any device with a browser (phone, tablet, computer) to manage user profiles and sensor thresholds for up to two pads.
+2. Remove the power adapter box from the front of the pad so you can route the cables into it. To access below the SMX frame that holds the PCB that the FSRs plug into, you can find two sets of screws on the Left and Right channels that you can remove to lift the frame up and work the wires through.
+<p align="center">
+    <img src="img/smx%20open%20panels.jpeg " height="600px"/>
+</p>   
+
+Those wires can be brought up from the underside into the main PCB area to connect to the SMX FSR.
+<p align="center">
+    <img src="img/fsr%20jumper.jpeg" height="400px"/>
+</p>    
+6.  
+7. [Stand up the server.](https://github.com/vlnguyen/itg-fsr/tree/master/server) Create API endpoints for interacting with the Arduino and with a local profile database.
+8. [Run the web client.](https://github.com/vlnguyen/itg-fsr/tree/master/client) Once the client is running, the web app can be accessed by any device with a browser (phone, tablet, computer) to manage user profiles and sensor thresholds for up to two pads.
 
 
 
