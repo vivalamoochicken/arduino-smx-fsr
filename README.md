@@ -1,6 +1,4 @@
 # StepManiaX (SMX) Gen4+ with Arduino Controlled Force Sensitive Resistors 
-Arduino/Teensy implementation for FSRs with the SMX pad as a use case. This method keeps the main SMX game in mind and keeps all the existing PCBs and wires in the pad, making this an easily swappable method depending on which game (SM5 or SMX) you wish to play.
-
 ## Table of Contents
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
@@ -16,9 +14,11 @@ For setting up an Arduino/Teensy board to work with the SMX FSRs, please follow 
     <img src="img/smx%20fsr.jpg" height="350px" />
 </p>
 
+This implementation is meant to preserve as much of the base hardware as possible in the SMX pad to ensure it can be switched back to be played with the orignal software. The only component removed from the pad is the power switch/adapter at the front of the pad where the power cable is connected so that the new wires that go to the FSRs can go into it externally as this particular implementation houses the Arduino outside of the pad. This guide will go into more detail about suggestions on better ways to house the Arduino and wires in the [Installation](#installation) section.
 
 ### SMX and Traditional Style Pad Differences?
-- **Adjustable Sensitivities**
+- For the purposes of using an Arduino/Teensy setup in an SMX style pad, the main differences will be how the wires are routed throughout the pad(s).
+- In order to get the wires to the area that houses the SMX PCB and 
   - Unlike contact sensors which are only ON or OFF, we can determine whether a panel is activated by defining a variable actuation threshold on each individual 
 
 
