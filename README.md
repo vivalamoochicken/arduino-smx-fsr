@@ -2,9 +2,9 @@
 Arduino/Teensy implementation for FSRs with the SMX pad as a use case. This method keeps the main SMX game in mind and keeps all the existing PCBs and wires in the pad, making this an easily swappable method depending on which game (SM5 or SMX) you wish to play.
 
 ## Table of Contents
-- [StepManiaX (SMX) Gen4+ with Arduino Controlled Force Sensitive Resistors](#arduino-smx-fsr)
-  - [Preliminary Reads/Credits](#table-of-contents)
+  - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
+    - [Preliminary Reads/Credits](#preliminary-reads-credits)
     - [Why use FSRs?](#why-use-fsrs)
     - [High-level Design](#high-level-design)
   - [Installation](#installation)
@@ -16,8 +16,6 @@ Arduino/Teensy implementation for FSRs with the SMX pad as a use case. This meth
 - Please refer to these guides for setting up Arduino/Teensy board connections for general FSR use. The concept for the SMX pad is almost exactly the same.
   
 
-
-
 ## Introduction
 A Force Sensitive Resistor (FSR) is a resistor that changes its resistive value depending on how much pressure is applied to its surface. They can be used to handle controller inputs on a dance game controller such as one for Dance Dance Revolution (DDR), In The Groove (ITG), or Stepmania.
 <p align="center">
@@ -26,18 +24,9 @@ A Force Sensitive Resistor (FSR) is a resistor that changes its resistive value 
     <img src="img/IMG_4201.jpg" height="450px" />
 </p>
 
-### Why use FSRs?
+### SMX and Traditional Style Pad Differences?
 - **Adjustable Sensitivities**
-  - Unlike contact sensors which are only ON or OFF, we can determine whether a panel is activated by defining a variable actuation threshold on each individual sensor.
-- **User Profiles**
-  - Save thresholds to a personal user profile that can be loaded and applied on the fly.
-  - Accommodate a wider range of foot sizes, shapes, body weights, and play styles.
-- **Remote Pad Maintenance**
-  - Set the sensor thresholds through a web app that can be loaded on your phone.
-  - There's basically no need to open up the pad and work underneath the panels anymore.
-- **Reliability, Consistency**
-  - Traditional contact sensors wear down and can be different in quality between manufacturers or even within batches.
-  - FSRs can combat consistency over time since players can adjust their sensor thresholds as the sensors get continued use.
+  - Unlike contact sensors which are only ON or OFF, we can determine whether a panel is activated by defining a variable actuation threshold on each individual 
 
 ### High-level Design
 - **Hardware (Arduino Leonardo)**
