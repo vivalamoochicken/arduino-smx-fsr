@@ -11,7 +11,7 @@ Arduino/Teensy implementation for FSRs with the SMX pad as a use case. This meth
 ## Introduction
 This guide is meant to be supplementary material to the existing guide by [teejusb/fsr](https://github.com/teejusb/fsr) and general Arduino Leonardo implementation from [vlnguyen/itg-fsr](https://github.com/vlnguyen/itg-fsr). For setting up an Arduino/Teensy board to work with the SMX FSRs, please follow these guides. The concept is the same, and I used jumper cables to bridge the connection to the stock FSRs as seen below:
 <p align="center">
-    <img src="img/smx%fsr.jpg" height="225px" />
+    <img src="img/smx%20fsr.jpg" height="225px" />
     <img src="img/IMG_4178.jpg" height="225px" />
     <img src="img/IMG_4201.jpg" height="450px" />
 </p>
