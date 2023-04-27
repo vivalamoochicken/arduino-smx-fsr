@@ -3,8 +3,9 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Installation](#installation)
-  - [Credits](#credits)
   - [Revert to Stock SMX](#revert-to-stock-smx)
+  - [Credits](#credits)
+
 
 ## Introduction
 This guide is meant to be supplementary material to the existing guide [teejusb/fsr](https://github.com/teejusb/fsr). 
