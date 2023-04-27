@@ -8,6 +8,7 @@
 
 
 ## Introduction
+Explicit note: Please perform any modifications to your pad at your own risk. I am not responsible for any damage to any existing hardware if something happens to go wrong.
 This guide is meant to be supplementary material to the existing guide [teejusb/fsr](https://github.com/teejusb/fsr). 
 For setting up an Arduino/Teensy board to work with the SMX FSRs, please follow that guide and the ones also listed within it. The concept is the same, and I used jumper cables to bridge the connection to the stock FSRs as seen in the [Installation](#installation) section.
 
