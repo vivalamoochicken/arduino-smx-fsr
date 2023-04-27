@@ -54,7 +54,7 @@ All that is required in order to switch back to using the pad for normal SMX gam
 3. Remove the panels and unplug the jumper cables from each of the FSRs. 
 4. Plug the FSRs back into the SMX PCB
 
-That's it! The conversion process back for SMX use is complete. Outside of having to remove the power switch box it's a fairly seemless process to go back-and-forth.
+That's it! The conversion process back for SMX use is complete. Outside of having to remove the power switch box it's a fairly seamless process to go back-and-forth.
 
 ## Credits
 - Thank you [teejusb](https://github.com/teejusb) and [VincentITG](https://github.com/vlnguyen)! Between Vincent's easy to follow picture guide and instructions from both guides, I was able to successfully implement the Arduino FSR method with my SMX Gen 4 pad. 
