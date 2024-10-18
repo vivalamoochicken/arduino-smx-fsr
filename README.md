@@ -42,7 +42,7 @@ Those wires can be brought up from the underside into the main PCB area to conne
    
 3.Put the Arduino into an external housing/route cables to housing.
 
-My implementation is far from ideal in this case. I put my Arduino and breadboard into a shoebox and have that directly in front of the pad because I used slightly too few jumper cables and didn't have enough length to fit the shoebox next to my PC. My suggestion would be to get some tubing to act as a wire shield and route that to the Arduino and breadboard. I also suggest better housing than a shoebox for this long term. Regardless, this is what my current implementation looks like fully put together:
+My implementation is far from ideal in this case. I put my Arduino and breadboard into a shoebox and have that directly in front of the pad because I used slightly too few jumper cables and didn't have enough length to fit the shoebox next to my PC. My suggestion, if not planning to use SMX hardware again, would be to gut the middle panel PCB and route the panel FSRs to there, then route the usb cable wire out through the front of the pad. Otherwise, if you want to keep the Arduino external, get some tubing to act as a wire shield and route that to the Arduino and breadboard. I also suggest better housing than a shoebox for this long term. Regardless, this is what my current implementation looks like fully put together:
 <p align="center">
     <img src="img/shoebox%20smx%20pad%20final.jpeg" height="500px"/>
 </p> 
